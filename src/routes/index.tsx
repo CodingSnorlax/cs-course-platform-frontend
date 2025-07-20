@@ -1,11 +1,11 @@
-import { createBrowserRouter } from 'react-router-dom';
-import HomePage from '@/features/home/pages/HomePage';
+import { createBrowserRouter } from "react-router-dom";
+import HomePage from "@/features/home/pages/HomePage";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <HomePage />,
   },
 ]);
 
-export default router; 
+export default router;

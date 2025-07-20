@@ -25,6 +25,10 @@ export default tseslint.config([
       quotes: ["error", "double"],
       indent: ["error", 2],
       semi: ["error", "always"],
+      "no-console": ["warn", { allow: ["warn", "error"] }], // 禁止 console.log，但允許 console.warn 和 console.error
+      "no-debugger": "error",
+      "comma-dangle": ["error", "always-multiline"],
+      camelcase: ["error", { properties: "never" }], // 強制駝峰式命名，不檢查物件屬性
     },
   },
 ]);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -8,6 +8,9 @@ export const HeroSection: React.FC = () => {
       <button className="mt-8 px-6 py-3 bg-white text-blue-500 font-semibold rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
         瀏覽課程
       </button>
+      <button className="mt-8 px-6 py-3 bg-white text-blue-500 font-semibold rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+        註冊
+      </button>
     </section>
   );
-}; 
+};
